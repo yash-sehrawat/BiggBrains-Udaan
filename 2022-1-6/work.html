@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Table example</title>
+	<link rel="stylesheet" type="text/css" href="work.css">
+</head>
+<body>
+	 <div>
+		<h1>add my cars</h1>
+		<input type="text" id="name"placeholder="car name">
+		<input type="number" id="price"placeholder="car price">
+		<input type="text" id="colour"placeholder="car colour">
+		<input type="url" id="image"placeholder="car image url">
+		<button onclick="addCar()">add</button>
+	</div>
+	<button onclick="clearRows()"style="margin: 8px;">clear all</button>
+	<h1>my cars</h1>
+	<table id="myTable">
+		<thead>
+			<tr>
+				<th>s no</th>
+				<th>name</th>
+				<th>price</th>
+				<th>colour</th>
+				<th>images</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>ferrari</td>
+				<td>10</td>
+				<td>yellow</td>
+				<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJh8K4k2nBAhODNcS5Qd1ZFQBv4MpekXHAX9j1DcBjzt43MZeKT8CWt7YJtNtC5m4Dseg&usqp=CAU" width="150px" height="100px"></td>
+			</tr>
+		</tbody>
+    </table>
+    <script type="text/javascript" src="work.js"></script>
+</body>
+</html>

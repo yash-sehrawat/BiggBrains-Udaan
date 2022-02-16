@@ -1,0 +1,26 @@
+span.yash{
+	display: inline;/* the default for span */
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+	border: 1px solid blue;
+	background-color: yellow;
+}
+
+span.yash2{
+	display: inline-block;/* the default for span */
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+	border: 1px solid blue;
+	background-color: yellow;
+}
+
+span.yash3{
+	display: block;/* the default for span */
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+	border: 1px solid blue;
+	background-color: yellow;
+}

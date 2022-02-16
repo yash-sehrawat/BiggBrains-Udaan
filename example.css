@@ -1,0 +1,31 @@
+
+
+img{
+	position: absolute;
+	opacity: 0.5;
+    z-index: -1;
+}
+
+body > div {
+	position: absolute;
+	z-index: 1;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 300px;
+}
+
+button{
+	padding: 50px;
+	margin: -3px;
+	opacity: 0.2;
+	background-color: white;
+}
+
+button:hover{
+	background-color: red;
+    opacity: 0.8;
+}

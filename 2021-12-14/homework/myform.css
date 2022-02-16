@@ -1,0 +1,21 @@
+body{
+	background-color: lightgreen;
+}
+
+form{
+	border: 2px dotted;
+	padding: 16px;
+	width: 600px;
+	text-align: center;
+	border-radius: 16px;
+	background-color: skyblue;
+
+}
+
+.container{
+	height: 100vh;
+	margin: 25px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}

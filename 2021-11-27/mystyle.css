@@ -1,0 +1,19 @@
+h1{
+	color: red;
+}
+/*ID SELECTOR*/
+#{
+	background: peachpuff;
+	padding: 8PX;
+}
+/*CLASS*/
+
+.{
+background: lightgoldenrodyellow;
+BORDER border-radius: 8PX;
+border: 1PX solid GRAY;
+}
+
+#p1{
+	background-color: ;
+}

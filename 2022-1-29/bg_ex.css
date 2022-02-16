@@ -1,0 +1,28 @@
+body{
+	padding: 32px;
+	background: #ffffff url();
+}
+
+.ex1{
+	background-color: blue;
+}
+
+.ex2{
+	background-color: 0.3;
+}
+
+.ex3{
+	background-color: rgba(25, 32, 103, 0.5);
+}
+
+.ex4{
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.ex5{
+	background-image: url();
+	background-repeat: repeat-x;
+}
+
